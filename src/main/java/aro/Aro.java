@@ -19,7 +19,7 @@ public class Aro {
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
         coordenadaY = valorY;
-        establecerRadio(valorRadio);
+        setRadio(valorRadio);
     }
 
     /**
@@ -62,31 +62,6 @@ public class Aro {
      */
     public void setRadio(double radio) {
         this.radio = (radio < MINIMO) ? MINIMO : radio;
-    }
-
-    public void establecerCoordenadaX(int valorX) {
-        setCoordenadaX(valorX);
-    }
-
-    public int obterCoordenadaX() {
-        return getCoordenadaX();
-    }
-
-    public void establecerCoordenadaY(int valorY) {
-        setCoordenadaY(valorY);
-    }
-
-    public int obterCoordenadaY() {
-        return getCoordenadaY();
-    }
-
-    public void establecerRadio(double valorRadio) {
-
-        setRadio(valorRadio < MINIMO ? MINIMO : valorRadio);
-    }
-
-    public double obterRadio() {
-        return getRadio();
     }
 
     public double obterDiametro() {

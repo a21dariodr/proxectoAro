@@ -18,79 +18,79 @@ public class AroTest {
     }
     
     /**
-     * Test of establecerCoordenadaX method, of class Aro.
+     * Test of setCoordenadaX method, of class Aro.
      */
     @Test
-    public void testEstablecerCoordenadaX() {
-        System.out.println("establecerCoordenadaX");
+    public void testSetCoordenadaX() {
+        System.out.println("setCoordenadaX");
         int valorX = 0;
         Aro instance = new Aro();
-        instance.establecerCoordenadaX(valorX);
+        instance.setCoordenadaX(valorX);
     }
 
     /**
-     * Test of obterCoordenadaX method, of class Aro.
+     * Test of getCoordenadaX method, of class Aro.
      */
     @Test
-    public void testObterCoordenadaX() {
-        System.out.println("obterCoordenadaX");
+    public void testGetCoordenadaX() {
+        System.out.println("getCoordenadaX");
         Aro instance = new Aro(0,0,0.1);
         int expResult = 0;
-        int result = instance.obterCoordenadaX();
+        int result = instance.getCoordenadaX();
         assertEquals(expResult, result);
     }
 
     /**
-     * Test of establecerCoordenadaY method, of class Aro.
+     * Test of setCoordenadaY method, of class Aro.
      */
     @Test
-    public void testEstablecerCoordenadaY() {
-        System.out.println("establecerCoordenadaY");
+    public void testsetCoordenadaY() {
+        System.out.println("setCoordenadaY");
         int valorY = 0;
         Aro instance = new Aro();
-        instance.establecerCoordenadaY(valorY);
+        instance.setCoordenadaY(valorY);
     }
 
     /**
-     * Test of obterCoordenadaY method, of class Aro.
+     * Test of getCoordenadaY method, of class Aro.
      */
     @Test
-    public void testObterCoordenadaY() {
-        System.out.println("obterCoordenadaY");
+    public void testGetCoordenadaY() {
+        System.out.println("getCoordenadaY");
         Aro instance = new Aro(0,0,0.1);
         int expResult = 0;
-        int result = instance.obterCoordenadaY();
+        int result = instance.getCoordenadaY();
         assertEquals(expResult, result);
     }
 
     /**
-     * Test of establecerRadio method, of class Aro.
+     * Test of setRadio method, of class Aro.
      */
     @Test
-    public void testEstablecerRadio() {
-        System.out.println("establecerRadio");
+    public void testSetRadio() {
+        System.out.println("setRadio");
         Aro instance = new Aro();
-        instance.establecerRadio(0.0);
-        instance.establecerRadio(0.1);
-        instance.establecerRadio(-0.1);
+        instance.setRadio(0.0);
+        instance.setRadio(0.1);
+        instance.setRadio(-0.1);
     }
 
     /**
-     * Test of obterRadio method, of class Aro.
+     * Test of getRadio method, of class Aro.
      */
     @Test
-    public void testObterRadio() {
-        System.out.println("obterRadio");
+    public void testGetRadio() {
+        System.out.println("getRadio");
         Aro instance = new Aro(0,0,0.1);
-        double result = instance.obterRadio();
+        double result = instance.getRadio();
         assertEquals(0.1, result,0);
 
-        instance.establecerRadio(0.1);
-        result= instance.obterRadio();
+        instance.setRadio(0.1);
+        result= instance.getRadio();
         assertEquals(0.1, result,0);
 
-        instance.establecerRadio(-0.1);
-        result= instance.obterRadio();
+        instance.setRadio(-0.1);
+        result= instance.getRadio();
         assertEquals(0.0, result,0);
     }
 
@@ -136,11 +136,11 @@ public class AroTest {
     public void testTrasladarCentro() {
         System.out.println("trasladarCentro");
         Aro instance = new Aro();
-        int resultx=instance.obterCoordenadaX();
-        int resulty=instance.obterCoordenadaY();
+        int resultx=instance.getCoordenadaX();
+        int resulty=instance.getCoordenadaY();
         instance.trasladarCentro(5, 6);
-        int resultnx = instance.obterCoordenadaX();
-        int resultny = instance.obterCoordenadaY();
+        int resultnx = instance.getCoordenadaX();
+        int resultny = instance.getCoordenadaY();
         assertEquals(resultx+5, resultnx);
         assertEquals(resulty+6, resultny);
     }
