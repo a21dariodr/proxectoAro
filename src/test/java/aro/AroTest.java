@@ -5,10 +5,6 @@
 package aro;
 
 import aro.Aro;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -22,48 +18,48 @@ public class AroTest {
     }
     
     /**
-     * Test of establecerX method, of class Aro.
+     * Test of establecerCoordenadaX method, of class Aro.
      */
     @Test
-    public void testEstablecerX() {
-        System.out.println("establecerX");
+    public void testEstablecerCoordenadaX() {
+        System.out.println("establecerCoordenadaX");
         int valorX = 0;
         Aro instance = new Aro();
-        instance.establecerX(valorX);
+        instance.establecerCoordenadaX(valorX);
     }
 
     /**
-     * Test of obterX method, of class Aro.
+     * Test of obterCoordenadaX method, of class Aro.
      */
     @Test
-    public void testObterX() {
-        System.out.println("obterX");
+    public void testObterCoordenadaX() {
+        System.out.println("obterCoordenadaX");
         Aro instance = new Aro(0,0,0.1);
         int expResult = 0;
-        int result = instance.obterX();
+        int result = instance.obterCoordenadaX();
         assertEquals(expResult, result);
     }
 
     /**
-     * Test of establecerY method, of class Aro.
+     * Test of establecerCoordenadaY method, of class Aro.
      */
     @Test
-    public void testEstablecerY() {
-        System.out.println("establecerY");
+    public void testEstablecerCoordenadaY() {
+        System.out.println("establecerCoordenadaY");
         int valorY = 0;
         Aro instance = new Aro();
-        instance.establecerY(valorY);
+        instance.establecerCoordenadaY(valorY);
     }
 
     /**
-     * Test of obterY method, of class Aro.
+     * Test of obterCoordenadaY method, of class Aro.
      */
     @Test
-    public void testObterY() {
-        System.out.println("obterY");
+    public void testObterCoordenadaY() {
+        System.out.println("obterCoordenadaY");
         Aro instance = new Aro(0,0,0.1);
         int expResult = 0;
-        int result = instance.obterY();
+        int result = instance.obterCoordenadaY();
         assertEquals(expResult, result);
     }
 
@@ -140,11 +136,11 @@ public class AroTest {
     public void testTrasladarCentro() {
         System.out.println("trasladarCentro");
         Aro instance = new Aro();
-        int resultx=instance.obterX();
-        int resulty=instance.obterY();
+        int resultx=instance.obterCoordenadaX();
+        int resulty=instance.obterCoordenadaY();
         instance.trasladarCentro(5, 6);
-        int resultnx = instance.obterX();
-        int resultny = instance.obterY();
+        int resultnx = instance.obterCoordenadaX();
+        int resultny = instance.obterCoordenadaY();
         assertEquals(resultx+5, resultnx);
         assertEquals(resulty+6, resultny);
     }

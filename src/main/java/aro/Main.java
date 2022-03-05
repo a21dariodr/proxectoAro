@@ -10,11 +10,11 @@ public class Main {
     public static void main(String[] args) {
         Aro aro = new Aro(37,43,2.5);
         String saida =
-                "A coordenada X é "+aro.obterX()+
-                "\nA coordenada Y é "+aro.obterY()+
+                "A coordenada X é "+aro.obterCoordenadaX()+
+                "\nA coordenada Y é "+aro.obterCoordenadaY()+
                 "\nO radio é "+aro.obterRadio();
-        aro.establecerX(35);
-        aro.establecerY(20);
+        aro.establecerCoordenadaX(35);
+        aro.establecerCoordenadaY(20);
         aro.establecerRadio(4.2);
         DecimalFormat dousDixitos = new DecimalFormat("0.00");
         saida+="\nO diámetro é "+dousDixitos.format(aro.obterDiametro());
