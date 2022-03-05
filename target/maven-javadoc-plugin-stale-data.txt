@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'proxectoAro 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'proxectoAro 1.0-SNAPSHOT API'
+aro
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/src/main/java = 1646442367641
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/constant-values.html = 1646444469930
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/tag-search-index.js = 1646444469972
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/overview-tree.html = 1646444469944
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/module-search-index.js = 1646444469968
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/index.html = 1646444469983
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/package-search-index.js = 1646444469969
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/jquery-ui.overrides.css = 1646444470008
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/index-all.html = 1646444469973
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/allpackages-index.html = 1646444469980
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/deprecated-list.html = 1646444469949
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/member-search-index.js = 1646444469971
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/script.js = 1646444469989
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/stylesheet.css = 1646444469988
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/help-doc.html = 1646444469986
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/element-list = 1646444469917
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/allclasses-index.html = 1646444469978
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/type-search-index.js = 1646444469970
+/Users/dario/Desktop/Dario/FP DAM/Programación/Recursos generales/Proyectos netbeans/proxectoAro/target/site/apidocs/search.js = 1646444469991
