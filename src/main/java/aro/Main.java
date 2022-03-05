@@ -7,6 +7,13 @@ import java.text.DecimalFormat;
  * @author Darío de la Iglesia Rodríguez
  */
 public class Main {
+
+    /**
+     * Método principal do proxecto proxectoAro que crea un obxecto de tipo Aro
+     * e executa tódolos seus métodos (modificar coordenadas, obter diámetro, 
+     * obter superficie, etc)
+     * @param args Argumentos de liña de comandos para execución do método main
+     */
     public static void main(String[] args) {
         Aro aro = new Aro(37,43,2.5);
         String saida =

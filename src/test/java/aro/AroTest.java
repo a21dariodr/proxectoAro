@@ -14,6 +14,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class AroTest {
     
+    /**
+     * Constructor baleiro para a clase de test da clase Aro
+     */
     public AroTest() {
     }
     
